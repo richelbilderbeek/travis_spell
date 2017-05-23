@@ -1,0 +1,7 @@
+dist: trusty
+
+install:
+  - sudo install spell
+
+script: 
+  - spell my_prose.md
