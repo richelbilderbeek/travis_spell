@@ -1,4 +1,10 @@
-install:
+language: cpp
+dist: bionic
+compiler: gcc
+
+install: 
+  - sudo apt update -qq
+  # spelle
   - sudo apt-get install spell
 
 script: 
